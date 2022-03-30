@@ -11,30 +11,34 @@
     <header>
       <h1>Alice in Wonderland</h1>
     </header>
-    <hr />
-    <div>
+
+    <div id="container">
       <video
         src="img/alice.mp4"
         type="video/mp4"
         autoplay="autoplay"
         loop="true"
+        controls
       ></video>
     </div>
-
-    <div>
+    <br />
+    <div id="audio">
       <audio
         id="music"
         src="music/01-main-title-alice-in-wondlerland.mp3"
-        autoplay="autoplay"
+        autoplay
         loop="true"
+        controls
       ></audio>
     </div>
-    <br /><br />
+    <hr />
+    <br />
 
     <div>
-      <h2>Auhour: Lewis Carroll</h2>
+      <h2>Author: Lewis Carroll</h2>
     </div>
     <hr />
+    <br /><br />
 
     <div>
       <h2>About</h2>
@@ -223,12 +227,30 @@
     <br /><br />
     <hr />
 
+    <div>
+      <h2>Online Exhibition</h2>
+      <div class="morganParents">
+        <div class="morgan">
+          <a href="https://www.themorgan.org/exhibitions/alice"
+            ><img src="img/morgan.jpg" alt="The Morgan Library"
+          /></a>
+          <br /><br />
+          <a id="morgan" href="https://www.themorgan.org/exhibitions/alice"
+            >The Morgan Library & Museum</a
+          >
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <hr />
+    <br />
+
     <div class="footer">
       <p>
-        &copy; Copyright 2022
-        <a href="https://www.aliceyootech.com/">Alice Yoo</a>. All Right
-        Reserved
+        <a id="alice" href="https://www.aliceyootech.com/"><b>Alice Yoo</b></a>
+        in 2022
       </p>
     </div>
+    <br />
   </body>
 </html>

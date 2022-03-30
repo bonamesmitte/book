@@ -5,6 +5,7 @@
 
 body {
   background-color: #f5f4f0;
+  margin: 0px 300px 30px 300px;
 }
 
 h1 {
@@ -13,6 +14,11 @@ h1 {
   font-family: "Griffy", cursive;
   color: #323228;
   text-align: center;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
 }
 
 h2 {
@@ -29,12 +35,41 @@ p {
   font-size: 20px;
 }
 
+#audio {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
 #contents {
   display: flex;
   justify-content: center;
 }
 
+li {
+  font-size: 20px;
+}
+
+.morganParents {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#morgan {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: none;
+  cursor: point;
+}
+
 .footer p {
   text-align: center;
   font-family: "Pinyon Script", cursive;
+}
+
+#alice {
+  color: #990088;
+  text-decoration: none;
+  cursor: pointer;
 }
